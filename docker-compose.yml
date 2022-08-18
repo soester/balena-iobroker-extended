@@ -6,7 +6,7 @@ volumes:
 services:
   iobroker:
     container_name: iobroker
-    image: buanet/iobroker
+    image: buanet/iobroker:v6.1.0-arm64v8
     hostname: iobroker
     restart: always
     ports:
